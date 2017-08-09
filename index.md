@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat+Web:600' rel='stylesheet' type='text/css'>
+      <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>Swift List App</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Swift List:</h1>
+      <div id="app">
+        <form id='add-form'>
+          <input id="create" name="itemDescription" type="text" placeholder="Add your next item!">
+        </form>
+        <ul id='list'>
+        </ul>
+    </div>
+  </div>
 
-You can use the [editor on GitHub](https://github.com/npj90/swiftlist/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+  <ul id='templates'>
+    <li class='item' data-id="some id">
+      <span class='complete-button'>&#10004;</span>
+        <div class="description" contenteditable="true" >Item</div>
+      <span class="delete-button">&#10008;</span>
+    </li>
+  </ul>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <script src="app.js"></script>
+  </body>
 
-### Markdown
+</html>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/npj90/swiftlist/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
