@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat+Web:600' rel='stylesheet' type='text/css'>
+      <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>Swift List App</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Swift List:</h1>
+      <div id="app">
+        <form id='add-form'>
+          <input id="create" name="itemDescription" type="text" placeholder="Add your next item!">
+        </form>
+        <ul id='list'>
+        </ul>
+    </div>
+  </div>
+
+  <ul id='templates'>
+    <li class='item' data-id="some id">
+      <span class='complete-button'>&#10004;</span>
+        <div class="description" contenteditable="true" >Item</div>
+      <span class="delete-button">&#10008;</span>
+    </li>
+  </ul>
+
+    <script src="app.js"></script>
+  </body>
+
+</html>
